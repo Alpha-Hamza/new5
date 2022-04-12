@@ -2,9 +2,9 @@
 
 export default function ThirdSection() {
   return (
-    <div className=" w-[100%] h-[672px] space-y-10 ">
-      <div className="flex space-x-10">
-        <div className="w-[50%]">
+    <div className=" w-[100%] h-[672px] sm:space-y-10 ">
+      <div className="sm:flex sm:space-x-10">
+        <div className="sm:w-[50%]">
           <h1 className="text-[#1F2937]  text-[12px] font-medium ">
             First Name
           </h1>
@@ -14,7 +14,7 @@ export default function ThirdSection() {
             className=" w-full rounded-full h-[50px] placeholder:pl-10 mt-[26px] border-2 focus:border-[#FFE600CC] "
           />
         </div>
-        <div className="w-[50%]">
+        <div className="sm:w-[50%] sm:mt-0 mt-[20px]">
           <h1 className="text-[#1F2937]  text-[12px] font-medium ">
             Last Name
           </h1>
@@ -26,7 +26,7 @@ export default function ThirdSection() {
         </div>
 
       </div>
-      <div className="">
+      <div className="sm:my-0 my-[20px]">
           <h1 className="text-[#1F2937]  text-[12px] font-medium ">
           Email
           </h1>
@@ -36,7 +36,7 @@ export default function ThirdSection() {
             className="  w-full rounded-full h-[50px] placeholder:pl-10 mt-[26px] border-2 "
           />
         </div>
-        <div className="">
+        <div className="sm:my-0 my-[20px]">
           <h1 className="text-[#1F2937]  text-[12px] font-medium ">
           Phone Number
           </h1>
@@ -46,7 +46,7 @@ export default function ThirdSection() {
             className="  w-full rounded-full h-[50px] placeholder:pl-10 mt-[26px] border-2 "
           />
         </div>
-        <div className="h-[40%]">
+        <div className="h-[40%] sm:my-0 my-[20px]">
           <h1 className="text-[#1F2937]  text-[12px] font-medium ">
           Message
           </h1>

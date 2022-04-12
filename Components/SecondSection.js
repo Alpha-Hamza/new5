@@ -5,12 +5,12 @@ export default function SecondSection() {
     <div className="relative     ">
       
 
-      <div className=" flex-col space-y-[48px]  ">
-        <div className="w-[556px]">
-          <h1 className="text-[24px] text-[#1F2937] font-bold ">
+      <div className=" flex-col space-y-[48px]   ">
+        <div className="xl:w-[556px] lg:w-[80%]">
+          <h1 className="sm:text-[24px] text-[20px] text-[#1F2937] font-bold ">
             Leave us a Message
           </h1>
-          <p className="text-[16px] text-[#1F2937] font-normal">
+          <p className="text-[16px] text-[#1F2937] font-normal leading-[24px]">
             Trust is essential for companies whose business models are based on
             sensitive customer data. A transparent and complete Privacy Policy
             agreement, which explains exactly what information a company
