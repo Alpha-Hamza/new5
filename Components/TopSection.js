@@ -9,21 +9,13 @@ export default function TopSection() {
         <div className="flex  md:w-full   ">
           <Header />
         </div>
-        
+
         <div className="relative">
-
-        <img src="./images/Banner.svg" alt=" " className=" " />
-        <div className=" max-w-[100%] ">
-        <FourthSection />
-
+          <img src="./images/Banner.svg" alt=" " className=" " />
+          <div className=" max-w-[100%] ">
+            <FourthSection />
+          </div>
         </div>
-        </div>
-        
-
-
-        
-        
-        
       </div>
     </div>
   );
