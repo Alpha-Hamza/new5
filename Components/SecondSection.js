@@ -5,7 +5,7 @@ export default function SecondSection() {
     <div className="relative     ">
       
 
-      <div className=" flex-col space-y-[48px]   ">
+      <div className=" mx-auto container flex-col space-y-[48px]   ">
         <div className="xl:w-[556px] lg:w-[80%]">
           <h1 className="sm:text-[24px] text-[20px] text-[#1F2937] font-bold ">
             Leave us a Message

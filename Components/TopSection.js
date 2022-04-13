@@ -6,13 +6,13 @@ export default function TopSection() {
   return (
     <div className="   bg-[#FFFFFF]  w-full ">
       <div className=" mx-auto container  lg:max-w-[100%]   ">
-        <div className="flex  md:w-full     ">
+        <div className="flex mx-auto  2xl:max-w-[90%]  md:w-full     ">
           <Header />
         </div>
 
-        <div className="relative">
-          <img src="./images/Banner.svg" alt=" " className=" " />
-          <div className=" lg:-mt-40 md:-mt-20 lg:max-w-[90%]  mx-auto  ">
+        <div className="">
+          <img src="./images/Banner.svg" alt=" " className="w-full " />
+          <div className="mx-auto container lg:-mt-40 md:-mt-20 lg:max-w-[90%]   ">
             <FourthSection />
           </div>
         </div>

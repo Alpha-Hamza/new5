@@ -2,13 +2,13 @@
 
 export default function Header() {
   return (
-    <div className="mx-auto lg:my-0 md:my-auto container max-w-[90%]  relative flex justify-between items-center  2xl:w-[100%] sm:w-full   my-[12px]  ">
+    <div className="mx-auto  container  lg:my-0 md:my-auto  relative flex justify-between items-center   sm:w-full   my-[12px]  ">
       <img
         src="./images/Logo1.svg"
         alt=" "
-        className="lg:w-auto md:max-w-[8%] sm:max-w-[10%] max-w-[20%] py-5 "
+        className="lg:w-auto md:max-w-[8%] sm:max-w-[10%] max-w-[20%] py-5  "
       />
-      <div className="  2xl:flex hidden  justify-center space-x-[48px]  items-center  ">
+      <div className="  2xl:flex hidden mx-auto container justify-end space-x-[48px]  items-center  ">
         <button className="cursor-pointer  font-medium  leading-[20px] text-[#4B5563] focus:border-b-2 border-[#FF9900CC] h-[22px]">
         Watch & Learn
         </button>

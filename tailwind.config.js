@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{html,js,ts,jsx,tsx}",
     "./Components/**/*.{html,js,ts,jsx,tsx}",
+    './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
     extend: {
@@ -30,5 +31,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 };
