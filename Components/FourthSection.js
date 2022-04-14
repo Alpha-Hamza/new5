@@ -3,7 +3,7 @@ import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 export default function FourthSection() {
   return (
-    <div className="     mx-auto container   rounded-[12px]   drop-shadow-md bg-white max-w-[100%]  ">
+    <div className="     mx-auto container   rounded-[12px]   drop-shadow-md bg-white   ">
       <h3 className="sm:text-[16px] text-[14px] font-medium text-[#1F2937] sm:ml-10 ml-5 pt-[48px]">
         Get{" "}
         <span className="sm:text-[16px] text-[14px] font-black text-[#FF9900CC]">
