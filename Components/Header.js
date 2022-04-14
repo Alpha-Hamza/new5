@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <div className="mx-auto  container  lg:my-0 md:my-auto  relative flex justify-between items-center   sm:w-full   my-[12px]  ">
+    <div className="mx-auto  container  lg:my-0 md:my-auto  relative flex justify-between items-center       my-[12px]  ">
       <img
         src="./images/Logo1.svg"
         alt=" "

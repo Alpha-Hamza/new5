@@ -7,13 +7,13 @@ export default function TopSection() {
   return (
     <div className="   bg-[#FFFFFF]  w-full  ">
       <div className=" mx-auto container  lg:max-w-[100%]   ">
-        <div className="flex mx-auto  2xl:max-w-[90%]  md:w-full     ">
+        <div className="flex mx-auto  2xl:max-w-[90%]  max-w-[90%]    ">
           <Header />
         </div>
 
-        <div className="">
+        <div className="max-w-[100%]">
           <Carousal />
-          <div className="mx-auto container lg:-mt-40 md:-mt-20 lg:max-w-[90%]   ">
+          <div className="mx-auto container 2xl:-mt-40 xl:-mt-[10%] lg:-mt-20 -mt-[7%] max-w-[90%]   ">
             <FourthSection />
           </div>
         </div>

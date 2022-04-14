@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto container  relative      ">
         <div className="mx-auto relative max-w-[90%]  xl:flex  grid grid-rows-2 grid-flow-col   xl:border-b-2 border-[#1F2937]">
 
-        <div className=" 2xl:w-[30%] xl:w-[380px] lg:w-[65%] md:w-[73%] sm:w-[89%] w-[80%] pt-[48px]  ">
+        <div className=" xl:mx-0 mx-auto 2xl:w-[30%] xl:w-[380px] lg:w-[65%] md:w-[73%] sm:w-[89%] w-[80%] pt-[48px]  ">
           <img
             src="./images/FooterLogo.svg"
             alt=" "
@@ -59,7 +59,7 @@ export default function Footer() {
             <input
               type={"text"}
               placeholder="Your Email"
-              className="focus:outline-none  relative   w-full bg-[#374151] h-full  placeholder:text-[#FFFFFF]  placeholder:px-[20px]"
+              className="focus:outline-none  relative   w-full bg-[#374151] h-full  placeholder:text-[#FFFFFF]  px-[20px]"
             />
 
             <button className="  absolute  text-[#ffffff] font-medium tracking-tight text-[16px]  bg-[#E68A00] hover:bg-[#FFC700CC] w-[30%]  h-full text-[#FFFFFF]      right-[0px]       ">
