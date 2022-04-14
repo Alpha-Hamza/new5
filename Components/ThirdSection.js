@@ -13,7 +13,7 @@ export default function ThirdSection() {
           <input
             type={"text"}
             placeholder="Makie"
-            className="focus:outline-[#FF9900CC] w-full rounded-full h-[50px] placeholder:pl-[38px]  border-2 focus:border-[#FFE600CC] "
+            className="focus:outline-[#FF9900CC] w-full rounded-full h-[50px]   border-2 focus:border-[#FFE600CC] pl-10 "
           />
 
           </div>
@@ -27,7 +27,7 @@ export default function ThirdSection() {
           <input
             type={"text"}
             placeholder="Clerk"
-            className="focus:outline-[#FF9900CC]  w-full rounded-full h-[50px] placeholder:pl-10   border-2"
+            className="focus:outline-[#FF9900CC]  w-full rounded-full h-[50px] pl-10  border-2"
           />
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function ThirdSection() {
           <input
             type={"text"}
             placeholder="makie_clerk69@gmail.com"
-            className=" focus:outline-[#FF9900CC] w-full rounded-full h-[50px] placeholder:pl-10  border-2 "
+            className=" focus:outline-[#FF9900CC] w-full rounded-full h-[50px] pl-10 border-2 "
           />
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function ThirdSection() {
           <input
             type={"text"}
             placeholder="Type Phone Number"
-            className="focus:outline-[#FF9900CC]  w-full rounded-full h-[50px] placeholder:pl-10  border-2 "
+            className="focus:outline-[#FF9900CC]  w-full rounded-full h-[50px] pl-10  border-2 "
           />
           </div>
         </div>
@@ -68,12 +68,12 @@ export default function ThirdSection() {
           <input
             type={"text"}
             placeholder="Type Message"
-            className="  w-full rounded-8 focus:outline-[#FF9900CC] placeholder:pl-10  h-[70%] border-2 "
+            className="  w-full rounded-8 focus:outline-[#FF9900CC] pl-10  h-[70%] border-2 "
           />
           </div>
         </div>
         <div className="flex justify-start items-center">
-        <button className=" relative  cursor-pointer bg-[#FF9900CC] hover:bg-[#FFC700CC]  w-[168px] h-[48px]  rounded-[40px]  text-[16px]  font-bold text-[#FFFFFF] ">
+        <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-[#FFC700CC] duration-300 relative  cursor-pointer bg-[#FF9900CC]   w-[168px] h-[48px]  rounded-[40px]  text-[16px]  font-bold text-[#FFFFFF] ">
         Send Message
         </button>
       </div>

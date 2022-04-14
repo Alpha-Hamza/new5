@@ -18,6 +18,7 @@ class MyDocument extends Document {
         </Head>
 
         <body>
+       
           <link
             href="https://fonts.googleapis.com/css?family=Lobster"
             rel="stylesheet"
@@ -26,6 +27,7 @@ class MyDocument extends Document {
 
           <Main />
           <NextScript />
+        
         </body>
       </Html>
     );

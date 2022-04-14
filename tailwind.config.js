@@ -13,6 +13,7 @@ module.exports = {
         inter: ["Inter"],
         avenir: ["Lobster"],
       },
+     
     },
     screens: {
       sm: "640px",
@@ -31,7 +32,5 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  plugins: [
-    require('tw-elements/dist/plugin')
-  ],
+  plugins: [require('tw-elements/dist/plugin')],
 };

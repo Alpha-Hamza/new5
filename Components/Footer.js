@@ -2,9 +2,9 @@
 
 export default function Footer() {
   return (
-    <div className=" bg-[#111827]  mt-[159.74px] 2xl:max-w-full     ">
+    <div className=" bg-[#111827]  mt-[159.74px] 2xl:max-w-full rounded-t-[16px]     ">
       <div className="mx-auto container  relative      ">
-        <div className="mx-auto relative max-w-[90%] xl:flex grid grid-rows-2 grid-flow-col  xl:border-b-2 border-[#1F2937]">
+        <div className="mx-auto relative max-w-[90%]  xl:flex  grid grid-rows-2 grid-flow-col   xl:border-b-2 border-[#1F2937]">
 
         <div className=" 2xl:w-[30%] xl:w-[380px] lg:w-[65%] md:w-[73%] sm:w-[89%] w-[80%] pt-[48px]  ">
           <img
